@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>QUIZ APP</title>
+</head>
+<body>
+<div class="inner">
+	<div class="outer">
+	<h2 class="question">question comes here</h2>
+	<ul>
+		<li>
+			<input type="radio" name="option" id="opt1" class="answer">
+			<label for="opt1" id="label1">answer option</label>
+			
+		</li>
+		<li>
+			<input type="radio" name="option" id="opt2" class="answer">
+			<label for="opt2" id="label2">answer option</label>
+			
+		</li>
+		<li>
+			<input type="radio" name="option" id="opt3" class="answer">
+			<label for="opt3" id="label3">answer option</label>
+			
+		</li>
+		<li>
+			<input type="radio" name="option" id="opt4" class="answer">
+			<label for="opt4" id="label4">answer option</label>
+			
+		</li>
+	</ul>
+	<button id="submit">submit</button>
+	<div id="showScore" class="scoreArea"></div>
+	
+	
+	
+	</div>
+	</div>
+	<script src="quizscript.js"></script>
+</body>
+</html>
